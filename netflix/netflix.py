@@ -1,4 +1,5 @@
-import pandas as p 
+import pandas as pd
 
-df = p.read_csv('./netflix_titles.csv')
-df.head(4)
+df = pd.read_csv('./netflix_titles.csv')
+get_money = pd.Series(["money heist"], name="title")
+print(get_money)
